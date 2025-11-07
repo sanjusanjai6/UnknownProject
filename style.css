@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#first-body {
+  height: 100vh;
+  background: linear-gradient(180deg, #ebe8e8, #e32ba6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sec-body{
+    font-family: 'Cardo', serif;
+}
+
+.login-container {
+  background: rgba(41, 20, 20, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 40px 50px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background: url('./images/front.jpeg') no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2a2424;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: none;
+  border-bottom: 2px solid #343333;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  border-color: #003366; /* dark blue border when focused */
+}
+
+.hint {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  color: #0a0a0a;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  opacity: 0.8;
+}
+
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #8a0452;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #8a0452;
+  color: white;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #e154a6;
+}
+
+/* Next page*/
+
+/* Fixed full-width banner */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f6dcbb;
+}
+
+/* Banner Image */
+.image-container img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Greeting Section */
+.secondPage {
+  background: linear-gradient(180deg, #ebe8e8, rgb(246, 220, 187));
+  text-align: center;
+  padding: 40px 20px;
+  line-height: 1.8;
+}
+
+#sec1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+#sec2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#sec3 {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Video + Text Section */
+.video-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, rgb(246, 220, 187), #ebe8e8);
+}
+
+.video-section video {
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-section {
+  max-width: 500px;
+  text-align: left;
+}
+
+.text-section h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* 🌸 Responsive Design (for phones and tablets) */
+@media (max-width: 768px) {
+  .image-container img {
+    height: 300px;
+  }
+
+  #sec1 {
+    font-size: 22px;
+  }
+
+  #sec2 {
+    font-size: 20px;
+  }
+
+  #sec3 {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .video-text-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .video-section video {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-section {
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .text-section h2 {
+    font-size: 22px;
+  }
+
+  .text-section p {
+    font-size: 16px;
+  }
+}
