@@ -8,7 +8,7 @@ function validateLogin() {
   const error = document.getElementById("error");
 
   const correctName = "Mythili";
-  const correctPassword = "02022025";
+  const correctPassword = "02022024";
 
   console.log("Checking credentials...");
 
@@ -24,3 +24,4 @@ function validateLogin() {
     return false; // prevent form reload
   }
 }
+
